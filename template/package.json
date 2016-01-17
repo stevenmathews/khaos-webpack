@@ -15,5 +15,10 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "hjs-webpack": "^6.1.0",
+    "webpack": "^1.12.11",
+    "webpack-dev-server": "^1.14.1"
   }
 }
