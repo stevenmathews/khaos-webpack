@@ -14,6 +14,8 @@
     "url": "git+{{repository}}.git"
   },
   "scripts": {
+    "start": "webpack-dev-server --inline --quiet",
+    "build": "NODE_ENV=production webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
