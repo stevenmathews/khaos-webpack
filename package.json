@@ -1,0 +1,21 @@
+{
+  "name": "khaos-webpack",
+  "description": "A Khaos template to start clientside projects with webpack quickly.",
+  "version": "0.0.0",
+  "author": "Steve Mathews <stevenmathews.nz@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/stevenmathews/khaos-webpack/issues"
+  },
+  "homepage": "https://github.com/stevenmathews/khaos-webpack#readme",
+  "keywords": [
+    "khaos-webpack",
+    "boilerplate",
+    "scaffold",
+    "skeleton"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "gihttps://github.com/stevenmathews/khaos-webpack.git"
+  }
+}
