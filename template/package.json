@@ -1,0 +1,19 @@
+{
+  "name": "{{basename}}",
+  "description": "{{description}}",
+  "version": "0.0.0",
+  "author": "{{author}}",
+  "bugs": {
+    "url": "{{repository}}/issues"
+  },
+  "homepage": "{{repository}}#readme",
+  "license": "MIT",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+{{repository}}.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
