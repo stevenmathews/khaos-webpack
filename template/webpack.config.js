@@ -11,5 +11,6 @@ module.exports = getConfig({
     return {
       'index.html': data.defaultTemplate({head: head, html: layout})
     }
-  }
+  },
+  hostname: '{{hostname}}.local'
 })
