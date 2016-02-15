@@ -13,7 +13,7 @@ A [Khaos](https://github.com/segmentio/khaos) template to start clientside proje
 - `$ npm i` - install included packages and their dependencies
 
 ## Scripts
-- `$ npm start` - start the hotloading dev server
+- `$ npm start` - start the hotloading dev server on [hostname].local:3000
 - `$ npm run build` - minify and bundle project into static files
 
 ## Configuration
