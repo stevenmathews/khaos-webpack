@@ -1,4 +1,6 @@
+[![devDependency Status](https://david-dm.org/stevenmathews/khaos-webpack-dependencies/dev-status.svg)](https://david-dm.org/stevenmathews/khaos-webpack-dependencies#info=devDependencies)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+
 # khaos-webpack
 A [Khaos](https://github.com/segmentio/khaos) template to start clientside projects with [webpack](https://webpack.github.io/) quickly.
 ## Benefits
