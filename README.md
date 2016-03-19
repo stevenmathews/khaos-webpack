@@ -1,4 +1,4 @@
-[![devDependency Status](https://david-dm.org/stevenmathews/khaos-webpack-dependencies/dev-status.svg)](https://david-dm.org/stevenmathews/khaos-webpack-dependencies#info=devDependencies)
+[![devDependency Status](https://david-dm.org/stevenmathews/khaos-webpack-deps/dev-status.svg)](https://david-dm.org/stevenmathews/khaos-webpack-deps#info=devDependencies)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 # khaos-webpack
