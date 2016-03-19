@@ -1,3 +1,4 @@
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 # khaos-webpack
 A [Khaos](https://github.com/segmentio/khaos) template to start clientside projects with [webpack](https://webpack.github.io/) quickly.
 ## Benefits
@@ -6,6 +7,7 @@ A [Khaos](https://github.com/segmentio/khaos) template to start clientside proje
 - minify and bundle into static files
 - prerender known html
 - develop on [multiple devices](https://github.com/HenrikJoreteg/hjs-webpack#developing-on-multiple-devices-at-once) at once
+- linting with [standard](http://standardjs.com) style
 
 ## Usage
 - `$ npm i -g khaos` - install khaos globally
