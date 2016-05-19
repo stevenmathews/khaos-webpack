@@ -10,8 +10,7 @@ const configOptions = {
     return {
       'index.html': data.defaultTemplate({head: head, html: layout})
     }
-  },
-  hostname: '{{hostname}}.local'
+  }
 }
 
 module.exports = configOptions
