@@ -1,12 +1,12 @@
-var layout = require('./prerender/layout')
-var head = require('./prerender/head')
+const layout = require('./prerender/layout')
+const head = require('./prerender/head')
 
-var configOptions = {
+const configOptions = {
   in: 'src/app.js',
   out: 'public',
   clearBeforeBuild: true,
   isDev: process.env.NODE_ENV !== 'production',
-  html: function (data) {
+  html: (data) => {
     return {
       'index.html': data.defaultTemplate({head: head, html: layout})
     }
