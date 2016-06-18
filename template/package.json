@@ -28,6 +28,9 @@
     "psi": "psi '{{basename}}.surge.sh'"
   },
   "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    },
     "ghooks": {
       "commit-msg": "node ./node_modules/validate-commit-msg/index.js"
     }
@@ -41,6 +44,7 @@
     "browser-sync": "^2.12.8",
     "browser-sync-webpack-plugin": "^1.0.1",
     "commitizen": "^2.8.1",
+    "conventional-changelog": "^1.1.0",
     "ghooks": "^1.2.1",
     "hjs-webpack": "^8.3.0",
     "psi": "^2.0.3",
