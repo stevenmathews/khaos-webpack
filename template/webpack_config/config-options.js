@@ -3,7 +3,7 @@ const head = require('./prerender/head')
 
 const configOptions = {
   in: 'src/app.js',
-  out: 'public',
+  out: 'dist',
   clearBeforeBuild: true,
   isDev: process.env.NODE_ENV !== 'production',
   html: (data) => {
