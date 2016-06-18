@@ -15,8 +15,9 @@
   },
   "scripts": {
     "start": "NODE_ENV=dev webpack-dev-server --inline --quiet",
+    "lint": "standard",
     "build": "NODE_ENV=production webpack",
-    "test": "standard && echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "git-cz",
     "deploy": "surge -p public -d {{basename}}.surge.sh",
     "psi": "psi '{{basename}}.surge.sh'"
