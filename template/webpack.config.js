@@ -13,7 +13,8 @@ config.plugins.push(
     {
       reload: false
     }
-  )
+  ),
+  new webpack.EnvironmentPlugin(['NODE_ENV'])
 )
 
 module.exports = config
