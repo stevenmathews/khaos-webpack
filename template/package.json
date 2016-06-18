@@ -18,6 +18,11 @@
     "lint": "standard",
     "build": "NODE_ENV=production webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "preversion": "npm run lint",
+    "postversion": "git push && git push --tags",
+    "release-patch": "npm version patch -m \"chore(package): release version %s\"",
+    "release-minor": "npm version minor -m \"chore(package): release version %s\"",
+    "release-major": "npm version major -m \"chore(package): release version %s\"",
     "commit": "git-cz",
     "deploy": "surge -p public -d {{basename}}.surge.sh",
     "psi": "psi '{{basename}}.surge.sh'"
