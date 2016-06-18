@@ -14,7 +14,8 @@ config.plugins.push(
       reload: false
     }
   ),
-  new webpack.EnvironmentPlugin(['NODE_ENV'])
+  new webpack.EnvironmentPlugin(['NODE_ENV']),
+  new webpack.NoErrorsPlugin()
 )
 
 module.exports = config
