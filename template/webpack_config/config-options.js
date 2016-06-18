@@ -10,6 +10,10 @@ const configOptions = {
     return {
       'index.html': data.defaultTemplate({head: head, html: layout})
     }
+  },
+  devServer: {
+    quiet: true,
+    inline: true
   }
 }
 
